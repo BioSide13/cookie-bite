@@ -32,7 +32,6 @@ biteButton.addEventListener('click', () => {
     if (bites < 5) {
         bites++;
         cookieImage.src = cookieImages[bites];
-        playBiteSound();
         if (bites === 5) {
             message.textContent = "Cookie finished! Time to bake a new one!";
             setTimeout(() => {
@@ -46,11 +45,6 @@ biteButton.addEventListener('click', () => {
     }
 });
 
-
-function playBiteSound() {
-    const audio = new Audio('assets/bite.mp3');
-    audio.play();
-}
 
 function showIngredients() {
     const container = document.createElement('div');
