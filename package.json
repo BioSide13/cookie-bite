@@ -1,0 +1,15 @@
+{
+  "name": "cookie-bite-app",
+  "version": "1.0.0",
+  "description": "A fun cookie app that allows users to take bites out of a cookie and mix ingredients to make a new one.",
+  "main": "src/scripts/main.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
